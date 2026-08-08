@@ -7,10 +7,10 @@ int main()
   int num;
   
   printf("Enter an integer: ");
-  // input the integer value
-  scanf("%d", num);
-  // print the input integer
-  printf("You entered integer: %d", num);
+  // input integer value
+  scanf("%d", &num);
+  // print input integer
+  printf("\nYour's entered integer: %d", num);
   // return value
-  return 0
+  return 0;
 }
